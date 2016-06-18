@@ -6,17 +6,41 @@
 </head>
 <body>
 
-	<div id="header"></div>
+	
+		<ul id="navbar">
+			<li><a href="https://inbox.google.com">Gmail</a></li>
+			<li><a href="https://www.google.com/imghp?hl=en&tab=wi&ei=gXplV7-DOIiUjwOW26sg&ved=0EKouCBgoAQ">Images</a></li>
+			<img id="grid" src="images/grid.png" style="height: 25px; width: 25px;">
+			<img id="bell" src="images/bell.png" style="height: 29px; width: 29px;">
+			<img id="profile" src="images/profile.png" style="height: 40px; width: 40px;">
+		</ul>
+	
 
-	<img src="logo.png">
+	<div id="logo-div">
+	<img id="logo" src="images/logo.png" style="height: 95px; width: 285px;">
+	</div>
 
 	<form action="#" name="search" method="POST">
-		<input type="text" name="searchbar"><br>
-		<input type="submit" value"Google Search">
-		<input type="submit" value"I'm Feeling Lucky...">
+		<input id="searchbar" type="text" name="searchbar"><br>
 	</form>
 
-	<div id="footer"></div>
+	<div style="text-align:center;">
+		<input id="search" type="submit" value="Google Search">
+		<input id="lucky" type="submit" value="I'm Feeling Lucky...">
+	</div>
+
+	<div id="footer">
+		<ul id="left">
+			<li>Advertising</li>
+			<li>Business</li>
+			<li>About</li>
+		</ul>
+		<ul id="right">
+			<li>Privacy</li>
+			<li>Terms</li>
+			<li>Settings</li>
+		</ul>
+	</div>
 
 </body>
 </html>
